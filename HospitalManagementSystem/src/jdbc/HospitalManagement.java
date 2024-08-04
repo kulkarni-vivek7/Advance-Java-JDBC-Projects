@@ -6,6 +6,9 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// before executing the project, create a table in your database named 'hms' with the fields patient_id INT primary key, name varchar(45) NOT NULL, age INT NOT NULL,
+// gender CHAR(1) NOT NULL, phone varchar(15) NOT NULL, disease varchar(45) NOT NULL, admission_date date NOT NULL .
+
 public class HospitalManagement {
 
 	int patient_id, age;
